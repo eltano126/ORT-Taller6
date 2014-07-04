@@ -3,7 +3,12 @@
 <%@page import="ort.t6.Managers.*"%>
 <%@page import="ort.t6.Entities.*"%>
 
+<<<<<<< HEAD
 <!--  Prueba Commit3 -->
+=======
+<!--  Prueba Commit -->
+<!-- Enzo -->
+>>>>>>> 615daa4e89620e1bce6538c76062aca3ab9afca2
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
