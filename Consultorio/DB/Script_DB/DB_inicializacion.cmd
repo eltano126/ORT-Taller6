@@ -1,0 +1,1 @@
+sqlite_3.7.17\sqlite3.exe ..\Consultorio.db < consultorio.sql
