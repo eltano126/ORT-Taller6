@@ -252,8 +252,8 @@
 		</form>
 	</div>
 
-	<button id="create-medico">Nuevo Medico</button>
-	<button id="create-medico" onclick="location.href='../login/principal.jsp'">Menu Principal</button>
+	<button id="create-medicos">Nuevo Medico</button>
+	<button id="create-medicos" onclick="location.href='../login/principal.jsp'">Menu Principal</button>
 	
 </body>
 </html>

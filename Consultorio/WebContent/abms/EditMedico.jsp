@@ -29,7 +29,7 @@ function Edit(){
 	alert(val_matricula + val_usuario + val_password + val_nombre + val_apellido);
 
 	window.location="../EditDataMedico?matricula="+val_matricula+"&usuario="+val_usuario+"&pass="+val_password+"&nombre="+val_nombre+"&apellido="+val_apellido;
-//	window.close();	
+window.close();	
 }
 
 
