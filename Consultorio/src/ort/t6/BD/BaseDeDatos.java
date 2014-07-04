@@ -10,7 +10,7 @@ public final class BaseDeDatos {
     
     public static final String DRIVER_CLASS = "org.sqlite.JDBC";
     public static final String jdbc = "jdbc:sqlite:";
-    public static final String dbPath = "F:\\Github\\ORT-Taller6\\Consultorio\\DB\\";
+    public static final String dbPath = "C:\\Desarrollo\\ORT-Taller6\\Consultorio\\DB\\";
     public static final String dbName = "Consultorio.db";
     
     
