@@ -76,7 +76,7 @@ public Medico getById(int id) {
 			PreparedStatement sql = BaseDeDatos.getConnection().prepareStatement("update Medico set me_nombre=?,"
 					+ "me_apellido=?,"
 					+ "me_usuario=?,"
-					+ "me_pass=?,"
+					+ "me_pass=?"
 					+ "where me_matricula=?");
 			sql.setString(1, nombre);
 			sql.setString(2, apellido);
