@@ -10,13 +10,9 @@ public final class BaseDeDatos {
     
     public static final String DRIVER_CLASS = "org.sqlite.JDBC";
     public static final String jdbc = "jdbc:sqlite:";
-    
-    //	Enzo PC - Casa
-    public static final String dbPath = "F:\\workspace\\Consultorio\\DB\\";
-    //	Enzo PC - Laburo
-//    public static final String dbPath = "C:\\Users\\etoscano\\Downloads\\PERSONAL\\Facultad\\workspace\\Consultorio\\DB\\";
-    
+    public static final String dbPath = "F:\\Github\\ORT-Taller6\\Consultorio\\DB\\";
     public static final String dbName = "Consultorio.db";
+    
     
 	private BaseDeDatos() {
 		
@@ -37,6 +33,7 @@ public final class BaseDeDatos {
         
         try {
             connection = DriverManager.getConnection(jdbc+dbPath+dbName);
+//            connection = DriverManager.getConnection("jdbc:sqlite:F:\\Github\\ORT-Taller6\\Consultorio\\DB\\Consultorio.db");
         } catch (SQLException e) {
             System.out.println("ERROR: Unable to Connect to Database.");
         }
